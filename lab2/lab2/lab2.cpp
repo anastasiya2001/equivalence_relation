@@ -79,6 +79,7 @@ void transitivity(int** a, int n)
 
 
 		}
+
 	}
 	if (chek == 1) {
 		cout << "отношение транзитивно" << endl;
@@ -242,7 +243,7 @@ void hasse(vector <int> a) {
 	for (int i = res.size() - 1; i >= 0; i--) {
 		cout << i + 1 << ") ";
 		for (int j = 0; j < res[i].size(); j++) {
-			cout << ' ' << res[i][j] << " ,";
+			cout << ' ' << res[i][j] << " ";
 		}
 		cout << endl;
 	}
